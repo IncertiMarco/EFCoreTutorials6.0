@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EFCoreTutorials6._0;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -22,7 +23,7 @@ namespace EFCoreTutorials
 
                 context.Students.Add(std);
                 context.SaveChanges();
-            }
+            } 
         }
     }
 }

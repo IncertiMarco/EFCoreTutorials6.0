@@ -14,7 +14,7 @@ namespace EFCoreTutorials6._0
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=SchoolDB;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-2RCJ4VD\SQLDEVELOPER1;Database=SchoolDB;Trusted_Connection=True;");
 
         }
     }
