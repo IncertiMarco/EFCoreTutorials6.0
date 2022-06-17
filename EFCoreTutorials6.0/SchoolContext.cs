@@ -15,6 +15,7 @@ namespace EFCoreTutorials6._0
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=DESKTOP-2RCJ4VD\SQLDEVELOPER1;Database=SchoolDB;Trusted_Connection=True;");
+            Console.WriteLine("Commit");
 
         }
     }
